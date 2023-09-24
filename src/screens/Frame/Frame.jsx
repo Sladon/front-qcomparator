@@ -31,11 +31,13 @@ export const Frame = () => {
         </div>
         <div className="div-5">
           <div className="text-wrapper-5">O ENTRE CON</div>
-          <img className="google-svgrepo-com" alt="Google svgrepo com" src="/img/google-svgrepo-com-1.svg" />
+          <a href="https://www.google.com"> {/* Add your desired URL here */}
+            <img className="google-svgrepo-com" alt="Google svgrepo com" src="/img/google-svgrepo-com-1.svg" />
+          </a>
         </div>
-        <div className="div-wrapper">
-          <div className="text-wrapper-6">Registrar/Entrar</div>
-        </div>
+          <div className="div-wrapper">
+           <button className="custom-button">Registrar/Entrar</button>
+          </div>
       </div>
     </div>
   );
