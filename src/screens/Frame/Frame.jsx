@@ -1,7 +1,15 @@
 import React from "react";
 import "./style.css";
+import { SearchItem } from "../../components/SearchItem/SearchItem";
+import { Comparar } from "../../components/Comparar/Comparar";
 
 export const Frame = () => {
+  return (
+    <Comparar />
+  );
+};
+
+export const Frames = () => {
   return (
     <div className="frame">
       <div className="div">
