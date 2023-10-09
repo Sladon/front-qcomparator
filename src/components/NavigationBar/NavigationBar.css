@@ -1,0 +1,30 @@
+/* estilo general */
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; 
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* estilos de los botones  */
+.nav-button {
+    background: none;
+    border: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+}
+
+/* estilos de los iconos */
+.nav-button img {
+    width: 24px; 
+    height: 24px;
+    margin-bottom: 5px;
+}
