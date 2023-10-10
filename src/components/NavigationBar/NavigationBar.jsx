@@ -17,27 +17,28 @@ const NavigationBar = () => {
 
     return (
         <BottomNavigation
-        className="bottom-nav"
-        value={value}
-        onChange={handleChange}
+            className="bottom-nav"
+            value={value}
+            onChange={handleChange}
         >
-        <BottomNavigationAction
-            label="Cuenta"
-            value="Cuenta"
-            icon={<AccountCircleIcon />}
-            onClick={() => navigate("/profile")}
-        />
-        <BottomNavigationAction
-            label="Comparar"
-            value="Comparar"
-            icon={<CompareIcon />}
-        />
-        <BottomNavigationAction
-            label="Locales"
-            value="Locales"
-            icon={<StoreIcon />}
-            onClick={() => navigate("/stores")}
-        />
+            <BottomNavigationAction
+                label="Cuenta"
+                value="Cuenta"
+                icon={<AccountCircleIcon />}
+                onClick={() => navigate("/profile")}
+            />
+            <BottomNavigationAction
+                label="Comparar"
+                value="Comparar"
+                icon={<CompareIcon />}
+                onClick={() => navigate("/compare")}
+            />
+            <BottomNavigationAction
+                label="Locales"
+                value="Locales"
+                icon={<StoreIcon />}
+                onClick={() => navigate("/stores")}
+            />
         </BottomNavigation>
     );
 };
