@@ -1,7 +1,11 @@
-import React from "react";
-import ReactDOMClient from "react-dom/client";
-import { Frame } from "./screens/Frame";
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-const app = document.getElementById("app");
-const root = ReactDOMClient.createRoot(app);
-root.render(<Frame />);
+import App from './app';
+
+ReactDOM.render(
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>,
+    document.getElementById('app')
+);
