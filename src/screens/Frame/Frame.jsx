@@ -2,10 +2,12 @@ import React from "react";
 import "./style.css";
 import { SearchItem } from "../../components/SearchItem/SearchItem";
 import { Comparar } from "../../components/Comparar/Comparar";
+import { Locales } from "../../components/Locales/Locales";
+import { Local } from "../../components/Local/Local";
 
 export const Frame = () => {
   return (
-    <Comparar />
+    <Local />
   );
 };
 
