@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BottomNavigation, BottomNavigationAction } from "@mui/material";
+import { BottomNavigation, BottomNavigationAction } from "@mui/material"; 
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import CompareIcon from "@mui/icons-material/Compare";
 import StoreIcon from "@mui/icons-material/Store";
